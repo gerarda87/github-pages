@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECA SCOLASTICA DIGITALE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .video-btn {
+            display: block;
+            margin: 15px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .video-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scegli il Video da Guardare</h1>
+        <a href="https://www.youtube.com/watch?v=FYq7zDDrKas&t=99s" class="video-btn" target="_blank">La Principessa e il Drago</a>
+        <a href="https://www.youtube.com/watch?v=NpxRBq9L2pc&t=185s" class="video-btn" target="_blank">Il Gigante più Elegante</a>
+        <a href="https://www.youtube.com/watch?v=rosi-tBdBBs&t=131s" class="video-btn" target="_blank">Bastoncino</a>
+        <a href="https://www.youtube.com/watch?v=5ljIrJxb9lU&t=118s" class="video-btn" target="_blank">La Pentola Magica</a>
+    </div>
+</body>
+</html>
